@@ -46,10 +46,14 @@ public class SignUp extends AppCompatActivity {
                     c.setPass(passw1);
 
                     helper.insertContact(c);
+                    Toast mensaje = Toast.makeText(SignUp.this, "Registrado", Toast.LENGTH_SHORT);
+                    mensaje.show();
                 }
+
             }
 
         });
+
     }
 
 
